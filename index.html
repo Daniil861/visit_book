@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0,viewport-fit=cover,minimum-scale=1,maximum-scale=1.0, user-scalable=0,minimal-ui=1">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<title>Visit Book</title>
+	<style>
+		body {
+			padding: 0;
+			margin: 0;
+			background-color: #000;
+		}
+
+		@font-face {
+			font-family: 'Inter-b';
+			src: url("../src/assets/fonts/Inter-Bold.woff") format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Inter-r';
+			src: url("../src/assets/fonts/Inter-Regular.woff") format('truetype');
+		}
+
+		@font-face {
+			font-family: 'Tauri';
+			src: url("../src/assets/fonts/Tauri-Regular.woff") format('truetype');
+		}
+
+		.font-preload_1 {
+			position: absolute;
+			top: -100px;
+			font-family: 'Inter-b';
+		}
+
+		.font-preload_2 {
+			position: absolute;
+			top: -100px;
+			font-family: 'Inter-r';
+		}
+
+		.font-preload_3 {
+			position: absolute;
+			top: -100px;
+			font-family: 'Tauri';
+		}
+	</style>
+</head>
+
+<body>
+	<div class="game">
+		<div class="font-preload_1">.</div>
+		<div class="font-preload_2">.</div>
+		<div class="font-preload_3">.</div>
+	</div>
+<script type="text/javascript" src="bundle.min.js"></script></body>
+
+</html>
